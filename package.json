@@ -1,14 +1,21 @@
 {
   "name": "redisprojeto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de exemplo utilizando Redis como cache de requisições HTTP",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "redis",
+    "cache",
+    "express",
+    "axios",
+    "spacex"
+  ],
+  "author": "normyee",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.3.4",
     "express": "^4.18.2",
